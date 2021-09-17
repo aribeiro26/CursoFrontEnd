@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sia janela e aproveirar a melhor experiencia</p>
+
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagens/small/android-chrome-192x192.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/medium/android-chrome-512x51.png" type="image/png">
+        <source media="(max-width: 3000px)" srcset="imagens/big/1.jpg" type="image/jpg">
+        <img src="imagens/big/1.jpg" alt="Imagem marybecloset">
+    </picture>
+    
+</body>
+</html>

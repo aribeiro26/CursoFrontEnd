@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.cores1{background-color: blue; color: white;}
+
+.cores2{background-color: #0000ff; color: #ffffff;}
+
+.cores3{background-color: rgb(0, 0, 255); color: rgb(255, 255, 255);}
+
+.cores4{background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%);}
+
+.cores5{background-color: #078a1c4f; color: rgba(16, 39, 0, 0.226);}

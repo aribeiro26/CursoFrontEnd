@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.menu{
+    background-color: #9c9c9cd8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+.menuG{
+    background-color: #34f0439a;
+    font: Arial, Helvetica, sans-serif,color;
+    font-style: normal;
+    font-weight: 700;
+}
+.titleG,.paG{
+    color: #046104;
+    
+}
+.paG{
+    font-size: 20px;
+}
+.menuY{
+    background-color: #c2c20f9d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titleY, .paY{
+    color: #6b6b05c9;
+}
+.paY{
+    font-size: 20px;
+}
+
+
