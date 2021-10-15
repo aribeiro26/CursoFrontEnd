@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha pagina</title>
+    <script src="./main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Minha Pagina</h1>
+        <main>
+            <nav>
+                <button type="button" onclick="Clicou()">Clique Aqui</button>
+            </nav>
+            <h3 id="agradecimento" onclick="Redirecionar()"></h3> 
+            <p id="mousemover" onmouseover="trocar()" onmouseout="voltar()">Passe o Mouse Aqui</p>
+            <select name="change" id="change" onchange="funcaoChange(this)">
+                <option value="1">Valor 1</option>
+                <option value="2">Valor 2</option>
+                <option value="3">Valor 3</option>
+            </select>          
+        </main>
+    </header>
+</body>
+</html>
